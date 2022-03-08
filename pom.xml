@@ -20,8 +20,8 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:venkatramanm/swf-all.git</connection>
-    <developerConnection>scm:git:git@github.com:venkatramanm/swf-all.git</developerConnection>
+    <connection>scm:git:git@github.com:venkatramanm/swf-plugin-gst.git</connection>
+    <developerConnection>scm:git:git@github.com:venkatramanm/swf-plugin-gst.git</developerConnection>
     <url>git@github.com:venkatramanm/swf-all.git</url>
   </scm>
   <developers>
