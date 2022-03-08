@@ -4,12 +4,12 @@
   <parent>
     <groupId>com.github.venkatramanm.swf-all</groupId>
     <artifactId>swf-all</artifactId>
-    <version>${revision}</version>
-    <relativePath>../swf-all/pom.xml</relativePath>
+    <version>2.8</version>
   </parent>
   <artifactId>swf-plugin-gst</artifactId>
   <name>swf-plugin-gst</name>
   <description>swf-plugin-gst</description>
+  <version>2.8-SNAPSHOT</version>
 
   <url>http://maven.apache.org</url>
   <licenses>
