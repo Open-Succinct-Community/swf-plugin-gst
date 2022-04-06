@@ -9,6 +9,7 @@
   <artifactId>swf-plugin-gst</artifactId>
   <name>swf-plugin-gst</name>
   <description>swf-plugin-gst</description>
+  <version>2.11-SNAPSHOT</version>
 
   <url>http://maven.apache.org</url>
   <licenses>
@@ -37,7 +38,7 @@
   	<dependency>
         <groupId>${project.groupId}</groupId>
   		  <artifactId>swf-plugin-collab</artifactId>
-        <version>${parent.version}</version>
+        <version>[${parent.version},)</version>
   	</dependency>
   </dependencies>
 </project>
