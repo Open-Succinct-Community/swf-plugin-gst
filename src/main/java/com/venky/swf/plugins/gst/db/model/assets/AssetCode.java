@@ -64,5 +64,9 @@ public interface AssetCode extends Model {
                 "CODE", Operator.EQ,code)).execute(1);
         return list.isEmpty() ? null : list.get(0);
     }
-
+    public static <T extends  AssetCode> T findLike(String code,Class<T> clazz){
+        List<T> list = new Select().from(clazz).where(new Expression(ModelReflector.instance(AssetCode.class).getPool(),
+                "CODE", Operator.LK,code+"%")).orderBy("length(code) asc").execute(1);
+        return list.isEmpty() ? null : list.get(0);
+    }
 }
